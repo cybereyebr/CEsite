@@ -1,4 +1,3 @@
-/* Website template by freewebsitetemplates.com */
 /*------------------------- Layout styles ------------------------*/ 
 body{
 	margin:0;
@@ -64,18 +63,20 @@ body{
 	padding:0 10px;
 	overflow:hidden;
 }
+
 .body div#featured{
-	background:url(../images/CyberEye-mapa.png) no-repeat right top;
+	background:url(../images/CyberEye-mapa.png) no-repeat;
+	background-size: 100% 100%;
 	height:248px;
-	padding:0 0 17px;
+	padding:0 0 100px;
+	margin: 15px 0 0 0;
 }
 .body div#featured h3{
 	color:#f78117;
 	font-size:36px;
 	font-family: 'RokkittRegular';
-	margin:0 0 30px;
+	margin:0 0 0 0;
 	width:490px;
-	padding:100px 0 0;
 	font-weight:normal;
 }
 .body div#featured p{
@@ -89,14 +90,14 @@ body{
 	margin:0;
 }
 .body div#featured input{
-	background:url(../images/interface.jpg) no-repeat;
+	background:url(../images/interface.png) no-repeat;
 	border:0;
     height:48px;
     width:216px;
 	font-family: 'RokkittRegular';
 	color:#fff;
 	font-size:30px;
-	margin:28px 0 0 125px;
+	margin:280px 0 0 700px;
 	cursor:pointer;
 	outline:none;
 }
@@ -168,6 +169,16 @@ body{
 	font-size:16px;
 	font-weight:normal;
 	text-shadow: 0 1px 0 #fcfcfc;
+}
+.body h2{
+	font-family: 'RokkittRegular';
+	font-weight:bold;
+	line-height:21px;
+	color:#f78117;
+	font-size:36px;
+	margin:30px 0 0 15px;
+	width:490px;
+	font-weight:normal;
 }
 .body h3{
 	font-family: 'RokkittRegular';
