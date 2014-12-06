@@ -1,77 +1,501 @@
 <!DOCTYPE html>
-<html>
-	<head>
-		<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
-		<title>Cyber Eye</title>
-		<link rel="stylesheet" href="css/style.css" type="text/css" />
-		<!--[if IE 7]>
-			<link rel="stylesheet" href="css/ie7.css" type="text/css" />
-		<![endif]-->
-	</head>
-	<body>
-		<div class="page">
-			<div class="header">
-				<a href="index.html" id="logo"><img width="50" src="images/logo.png" alt=""/></a>
-				<ul>
-					<li class="selected"><a href="index.html">Início</a></li>
-					<li><a href="about.html">Quem somos</a></li>
-					<li><a href="product.html">Soluções</a></li>
-					<li><a href="services.html">Como podemos ajudar</a></li>
-				</ul>
-			</div>
-			<div class="body">
-				<h2>Observe o que ninguém mais vê</h2>
-					
-				<div id="featured">	
-					<input type="button" value="Leia mais" onClick="parent.location='services.html'"/>
-				</div>
-				<ul class="blog">
-					<li>
-						<!--
-						<div>
-							<a href="blog.html"><img src="images/cybereye-client-solution.png" height="168" alt=""/></a>
-							<p>This website template has been designed by Free Website Templates for you, for free. 
-							You can replace all this text with your own text.</p>
-							<a href="blog.html">Click to read more</a>
-						</div>
-						-->
-					</li>
-					<li>
-						<div>
-							<a href="product.html"><img src="images/cybereye-client-solution.png" height="168" alt=""/></a>
-							<p>This website template has been designed by Free Website Templates for you, for free. 
-							You can replace all this text with your own text.</p>
-							<a href="blog.html">Click to read more</a>
-						</div>
-					</li>
-					<li>
-						<!--
-						<div>
-							<a href="blog.html"><img src="images/cybereye-client-solution.png" height="168" alt=""/></a>
-							<p>This website template has been designed by Free Website Templates for you, for free. 
-							You can replace all this text with your own text.</p>
-							<a href="blog.html">Click to read more</a>
-						</div>
-						-->
-					</li>
-				</ul>
-			</div>
-			<div class="footer">
-				<ul>
-					<li><a href="index.html">Início</a></li>
-					<li><a href="about.html">Quem somos</a></li>
-					<li><a href="product.html">Soluções</a></li>
-					<li><a href="services.html">Como podemos ajudar</a></li>
-				</ul>
-				<p>&#169; Copyright &#169; 2014. CyberEye todos os direitos reservados</p>
-				<!--
-				<div class="connect">
-					<a href="http://facebook.com/freewebsitetemplates" id="facebook">facebook</a>
-					<a href="http://twitter.com/fwtemplates" id="twitter">twitter</a>
-					<a href="http://www.youtube.com/fwtemplates" id="vimeo">vimeo</a>
-				</div>
-				-->
-			</div>
-		</div>
-	</body>
-</html>  
+<html class=" js flexbox canvas canvastext webgl no-touch geolocation postmessage no-websqldatabase indexeddb hashchange history draganddrop websockets rgba hsla multiplebgs backgroundsize borderimage borderradius boxshadow textshadow opacity cssanimations csscolumns cssgradients no-cssreflections csstransforms csstransforms3d csstransitions fontface generatedcontent video audio localstorage sessionstorage webworkers applicationcache svg inlinesvg smil svgclippaths" style="" lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="Content-type" content="text/html; charset=UTF-8">
+
+  <title>CyberEye</title>
+  <meta name="keywords" content="cybersecurity cryptography cibersegurança segurança computacional hacking defesa cibernética proteção digital">
+  <meta name="description" content="CyberEye: Observe o que ninguém mais vê">
+  <meta name="viewport" content="width=device-width">
+
+  <meta property="og:title" content="CyberEye: Observe o que ninguém mais vê">
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="https://www.cybereye.com.br/">
+  <meta property="og:site_name" content="CyberEye">
+  <meta property="og:description" content="cybersecurity cryptography cibersegurança segurança computacional hacking defesa cibernética proteção digital">
+
+  <!-- Styles -->
+  <link rel="stylesheet" href="style/jquery.css">
+  <link href="//maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="style/animate.css">
+  <link href="style/css_002.css" rel="stylesheet" type="text/css">
+  <link href="style/css.css" rel="stylesheet" type="text/css">
+
+  <link rel="stylesheet" href="style/bootstrap.css">
+  <link rel="stylesheet" href="style/main.css">
+  <link rel="stylesheet" href="style/custom-styles.css">
+  <link rel="stylesheet" href="style/jcarousel.css">
+
+  <script src="script/piwik.js" async="" defer="defer" type="text/javascript"></script><script src="script/modernizr-2.js"></script>
+
+  <!-- Fav and touch icons -->
+  <link rel="apple-touch-icon-precomposed" sizes="144x144" href="https://www.cybereye.com.br/apple-touch-icon-144-precomposed.png">
+  <link rel="apple-touch-icon-precomposed" sizes="114x114" href="https://www.cybereye.com.br/apple-touch-icon-114-precomposed.png">
+  <link rel="apple-touch-icon-precomposed" sizes="72x72" href="https://www.cybereye.com.br/apple-touch-icon-72-precomposed.png">
+  <link rel="apple-touch-icon-precomposed" href="https://www.cybereye.com.br/apple-touch-icon-57-precomposed.png">
+  <link rel="shortcut icon" href="images/logo-icon.png">
+</head>
+
+<body>
+
+  <div style="background-color: #FF0000; background: #c48787;" class="navbar navbar-inverse navbar-fixed-top">
+    <div class="navbar-inner">
+      <div class="container">
+        <a class="btn btn-navbar" data-toggle="collapse" data-target=".nav-collapse">
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+        </a>
+        <a class="brand" href="http://www.cybereye.com.br/"><img style="max-width: 60%;" src="images/logo-small.png" alt="Logo"></a>
+        <div class="nav-collapse collapse">
+          <ul class="nav pull-right">
+
+<!--               <li class="active">
+                <a href="http://www.cybereye.com.br/"><i class="icon-location-arrow icon-2x"></i></a>
+              </li> -->
+              <li>
+                <a href="http://www.cybereye.com.br/services.html">Soluções</a>
+              </li>
+<!--               <li>
+                <a href="http://www.cybereye.com.br/team">Quem somos</a>
+              </li> -->
+              <li>
+                <a href="http://www.cybereye.com.br/about.html">Sobre</a>
+              </li>
+              <li>
+                <a href="http://www.cybereye.com.br/partner.html">Parceiros</a>
+              </li>
+              <li>
+                <a href="http://www.cybereye.com.br/contact.html">Contato</a>
+              </li>
+
+          </ul>
+        </div>
+      </div>
+    </div>
+  </div>
+
+
+    <!--Header Section-->
+    <section id="header">
+      <div class="container">
+        <div class="row">
+          <div class="span12">
+
+            <!--BxSlider-->
+              <div style="max-width: 100%;" class="bx-wrapper">
+                <div style="width: 100%; overflow: hidden; position: relative; height: 560px;" class="bx-viewport">
+                <ul style="width: auto; position: relative;" class="bxslider">
+                  <li style="float: none; list-style: outside none none; position: center; width: 1170px; z-index: 0; display: none;">
+                  <img style="margin-left: 200px;" src="images/map.png" align="center" alt="Title">
+                  <div class="row text-center">
+                    <div class="span10 offset1">
+                    <h1>Observe o que ninguém mais vê</h1><h1>Mapa de Ataques.</h1><br>
+                    <!-- <a class="btn-main project" href="#project-modal" role="button" data-toggle="modal"><i class="icon-mail-forward"></i> Free Quote in 60 minutes</a> --><br>
+                    </div>
+                  </div>
+                </li>
+
+                <li style="float: none; list-style: outside none none; position: center; width: 1170px; z-index: 0; display: none;">
+                <br>
+                <br>
+                <br>
+                  <img style="margin-left: 460px; margin-up: 320px;" src="images/solution-small.png" align="middle" alt="Title">
+                  <div class="row text-center">
+                    <div class="span10 offset1">
+                    <h1>Observe o que ninguém mais vê.</h1><h1>Desenvolvimento 100% Nacional.</h1><br>
+                    <!-- <a class="btn-main project" href="https://www.cybereye.com.br/services" role="button"><i class="icon-leaf"></i> Browse Services</a> -->
+                    </div>
+                  </div>
+                </li>
+                </ul>
+                </div>
+              <div class="bx-controls bx-has-pager bx-has-controls-direction"><div class="bx-pager bx-default-pager"><div class="bx-pager-item"><a href="" data-slide-index="0" class="bx-pager-link active">1</a></div><div class="bx-pager-item"><a href="" data-slide-index="1" class="bx-pager-link">2</a></div></div><div class="bx-controls-direction"><a class="bx-prev" href="">Prev</a><a class="bx-next" href="">Next</a></div></div></div>
+
+          </div><!--End Span12-->
+        </div>
+      </div>
+    </section>
+
+    <!--Home Content-->
+    <section id="home-content" style="background: #c48787;">
+      <div class="container" style="background: #c48787;">
+        <div class="row">
+
+          <!--Section 1-->
+          <!-- <a href="#"> -->
+            <div class="span4 text-center home-box">
+              <i class="icon-mobile-phone icon-3x"></i>
+              <h3>Resposta a incidentes</h3>
+              <p>Ipsum Lorem Ipsum Lorem Ipsum Lorem<br>
+              Ipsum Lorem Ipsum Lorem Ipsum Lorem</p>
+            </div>
+          <!-- </a> -->
+
+          <!--Section 2-->
+          <!-- <a href="#"> -->
+            <div class="span4 text-center home-box">
+              <i class="icon-cogs icon-3x"></i>
+              <h3>Integração rápida e ágil</h3>
+              <p>Baixo Custo; Não-instrusivo; Transparente; Sem degradação de performance</p>
+            </div>
+          <!-- </a> -->
+
+          <!--Section 3-->
+          <!-- <a href="#"> -->
+            <div class="span4 text-center home-box">
+              <i class="icon-flag icon-3x"></i>
+              <h3>Tecnologia Nacional</h3>
+              <p>Desenvolvimento 100% realizado no Brasil<br>
+              Ipsum Lorem Ipsum Lorem Ipsum Lorem</p>
+            </div>
+          <!-- </a> -->
+
+        </div>
+      </div>
+    </section>
+
+    <!--Content Section-->
+    <section id="content">
+      <div class="container">
+        
+        <div class="row margin-50">
+          <div class="span12 text-center">
+              <ul class="inline home-icons">
+                <li><a href="#" class="nonactivelink"><i class="icon-rocket icon-4x blue"></i></a></li>
+                <li><a href="#" class="nonactivelink"><i class="icon-coffee icon-4x blue"></i></a></li>
+                <li><a href="#" class="nonactivelink"><i class="icon-tasks icon-4x blue"></i></a></li>
+                <li><a href="#" class="nonactivelink"><i class="icon-cloud icon-4x blue"></i></a></li>
+                <li><a href="#" class="nonactivelink"><i class="icon-lock icon-4x blue"></i></a></li>
+              </ul>
+          </div>
+        </div>
+        
+
+        <div class="row margin-30">
+          <div class="span8 text-center offset2">
+            <h1 class="dark-gray">Por que a CyberEye?</h1>
+          </div>
+        </div>
+
+        <div class="row margin-30">
+          <div class="span6">
+            <p class="gray">
+              Temos uma tecnologia <strong>100% nacional</strong> em todas as soluções.
+              Nosso <strong>time de especialistas</strong> é formado por profissionais <strong>altamente qualificados</strong>.
+            </p>
+            <p class="gray">
+              Quando somos contratados, trabalhamos em <strong>contato direto</strong> com nossos clientes, provendo soluções customizadas para seus interesses.
+            </p>
+            <p class="gray">
+              Nossas ferramentas buscam <strong>auxiliar</strong> nossos clientes, sendo integradas de maneira <strong>transparente</strong>, <strong>não-intrusiva</strong> e <strong>sem degradação de performance</strong>.
+            </p><br>
+          </div>
+
+          <div class="span6">
+            <p class="gray">
+              Ipsum Lorem Ipsum Lorem Ipsum Lorem Ipsum Lorem Ipsum Lorem Ipsum Lorem Ipsum Lorem Ipsum Lorem Ipsum Lorem Ipsum Lorem Ipsum Lorem Ipsum Lorem Ipsum Lorem Ipsum Lorem Ipsum Lorem Ipsum Lorem.
+            </p>
+            <p class="gray">Ipsum Lorem Ipsum Lorem Ipsum Lorem Ipsum Lorem Ipsum Lorem Ipsum Lorem Ipsum Lorem Ipsum Lorem Ipsum Lorem Ipsum Lorem Ipsum Lorem Ipsum Lorem Ipsum Lorem Ipsum Lorem Ipsum Lorem Ipsum Lorem.
+            </p>
+            <p class="gray">
+              Ipsum Lorem Ipsum Lorem Ipsum Lorem Ipsum Lorem Ipsum Lorem Ipsum Lorem Ipsum Lorem Ipsum Lorem Ipsum Lorem Ipsum Lorem Ipsum Lorem Ipsum Lorem Ipsum Lorem Ipsum Lorem Ipsum Lorem Ipsum Lorem.
+            </p><br>
+          </div>
+        </div><!--End Row-->
+
+        <div class="row">
+          <div class="span12 text-center">
+            <a class="btn-main contact" href="#contact-modal" role="button" data-toggle="modal">Entre em Contato</a>
+          </div>
+        </div><!--End Row-->
+      </div>
+    </section>
+
+    <!--Clients Section-->
+    <section id="clients" style="padding: 14px 0 60px;">
+      <div align="center">
+        <h4 class="gray" style="font-family: 'Calibri', cursive; font-size: 48px;">Alguns de nossos parceiros ...</h4>
+        <br>
+        <br>
+        <br>
+      </div>
+
+      <div class="container jcarousel-wrapper">
+        <div data-jcarouselautoscroll="true" data-jcarousel="true" class="row clients text-center jcarousel">
+          <ul style="margin-left: 262px; top: 0px;">
+            <li style="margin-left: 22px;" class="span2">
+              <a href="http://www.cybershield.net.br/"><img src="http://www.cybereye.com.br/images/cybershield-logo-bw.png" alt="CyberShield"></a>
+            </li>
+            <li style="margin-left: 22px;" class="span2">
+              <a href="http://www.redbelt.com.br/"><img src="http://www.cybereye.com.br/images/redbelt-logo-bw.png" alt="RedBelt"></a>
+            </li>
+            <li style="margin-left: 22px;" class="span2">
+              <a href="http://www.acmesecurity.org/"><img src="http://www.cybereye.com.br/images/acme-logo-bw.png" alt="Acme Cybersecurity Research"></a>
+            </li>
+            <!-- <li style="margin-left: 22px;" class="span2">
+              <a href="https://www.cybereye.com.br/works/windynation"><img src="other_images.png" alt="Windynation"></a>
+            </li>
+            <li style="margin-left: 22px;" class="span2">
+              <a href="https://www.cybereye.com.br/works/callofduty"><img src="other_images/callofduty.png" alt="Callofduty"></a>
+            </li>
+            <li style="margin-left: 22px;" class="span2">
+              <a href="https://www.cybereye.com.br/works/galavante"><img src="other_images/galavante.png" alt="Galavante"></a>
+            </li>
+            <li style="margin-left: 22px;" class="span2">
+              <a href="https://www.cybereye.com.br/works/paperqueen"><img src="other_images/paperqueen.png" alt="PaperQueen"></a>
+            </li> -->
+            <!-- <li style="margin-left: 22px;" class="span2">
+              <a href="https://www.cybereye.com.br/works/searchblox"><img src="other_images/searchblox.png" alt="SearchBlox"></a>
+            </li>
+            <li style="margin-left: 22px;" class="span2">
+              <a href="https://www.cybereye.com.br/works/afp"><img src="other_images/afp.png" alt="AFP"></a>
+            </li>
+            <li style="margin-left: 22px;" class="span2">
+              <a href="https://www.cybereye.com.br/works/bcliving"><img src="other_images/bcliving.png" alt="BCLiving"></a>
+            </li>
+            <li style="margin-left: 22px;" class="span2">
+              <a href="https://www.cybereye.com.br/works/billy"><img src="other_images/billybluehair.png" alt="BillyBlueHair"></a>
+            </li>             
+            <li style="margin-left: 22px;" class="span2">
+              <a href="https://www.cybereye.com.br/works/christianmusic"><img src="other_images/cma.png" alt="ChristianMusic"></a>
+            </li> 
+            <li style="margin-left: 22px;" class="span2">
+              <a href="https://www.cybereye.com.br/works/dentistblue"><img src="other_images/dentistblue.png" alt="DentistBlue"></a>
+            </li> -->
+            <!-- <li style="margin-left: 22px;" class="span2">
+              <a href="https://www.cybereye.com.br/works/dmfa"><img src="other_images/dmfa.png" alt="DMFA"></a>
+            </li>
+            <li style="margin-left: 22px;" class="span2">
+              <a href="https://www.cybereye.com.br/works/asdb"><img src="other_images/asdb.png" alt="ASDB"></a>
+            </li><li style="margin-left: 22px;" class="span2">
+              <a href="https://www.cybereye.com.br/works/mega"><img src="other_images/megabloks.png" alt="MegaBloks"></a>
+            </li><li style="margin-left: 22px;" class="span2">
+              <a href="https://www.cybereye.com.br/works/trophy"><img src="other_images/trophycupcakes.png" alt="TrophyCupCakes"></a>
+            </li><li style="margin-left: 22px;" class="span2">
+              <a href="https://www.cybereye.com.br/works/inforuptcy"><img src="other_images/inforuptcy.png" alt="Inforuptcy"></a>
+            </li> -->
+          </ul>
+        </div>
+        <!-- <a data-jcarouselpagination="true" href="#" class="jcarousel-pagination"> --><!-- <a class="active" href="#1">1</a> --><!-- <a class="" href="#2">2</a><a class="" href="#3">3</a> --></a>
+      </div>
+    </section>
+  <!--Message-->
+  <section id="message">
+    <div class="container">
+      <div class="row">
+        <div class="span12 text-center">
+          <h4 style="margin-left: 122px; margin-right: 122px;" class="gray">Ajudamos nossos parceiros a se tornarem mais conscientes acerca das ameaças e riscos aos quais estão expostos.</h4>
+        </div>
+      </div>
+    </div>
+  </section>
+
+
+    <section id="footer">
+      <div class="container">
+
+        <div class="row">
+          <div class="span12">
+          <div class="grayfooter span3 offset1 text-center" id="mini-map">
+            <ul class="linklist-1">
+              <li><a href="https://www.cybereye.com.br/">Home</a></li>
+              <li><a href="https://www.cybereye.com.br/services.html">Soluções</a></li>
+              <!-- <li><a href="https://www.cybereye.com.br/team">Quem somos</a></li> -->
+              <li><a href="https://www.cybereye.com.br/about.html">Sobre</a></li>
+              <li><a href="https://www.cybereye.com.br/partner.html">Parceiros</a></li>
+              <li><a href="https://www.cybereye.com.br/contact.html">Contato</a></li>
+            </ul>
+          </div>
+
+          <div class="span6 text-center" style="float:right;">
+            <ul class="social-icons">
+              <li><a class="twitter" href="http://twitter.com/" target="_blank" rel="nofollow"><i class="icon-twitter icon-3x"></i></a></li>
+              <li><a class="google" href="https://plus.google.com/" target="_blank" rel="nofollow"><i class="icon-google-plus icon-3x"></i></a></li>
+              <li><a class="linkedin" href="http://www.linkedin.com/" target="_blank" rel="nofollow"><i class="icon-linkedin icon-3x"></i></a></li>
+            </ul>
+            <p>© 2014 <a href="https://www.cybereye.com.br/">Cybereye</a> Todos os direitos reservados.</p>
+            <p>~ Faci sau nu faci, incercare nu exista<!-- <a href="https://product.tarot.com/articles/karma/good-vs-bad-karma.php" rel="nofollow" target="_blank">Bad Karma</a> --> ~</p>
+          </div>
+
+        </div>
+        </div>
+      </div>
+    </section>
+
+
+    <!-- Javascript
+    ================================================== -->
+    <!-- Placed at the end of the document so the pages load faster -->
+    <script src="script/jquery_003.js"></script>
+  
+    <script>window.jQuery || document.write('<script src="/static/js/jquery-1.9.1.min.js"><\/script>')</script>
+    <script src="script/bootstrap.js"></script>
+    <script src="script/main.js"></script>
+    <script src="script/jquery_004.js"></script>
+    <script src="script/bootstrap-portfilter.js"></script>
+    <script src="script/jquery_002.js"></script>
+    <script src="script/jcarousel.js"></script>
+    <script src="script/jquery.js"></script>
+    <script src="script/services.js"></script>
+    
+    <!--BxSlider - Animation options (horizontal, vertical, or fade) For full list of options check out www.bxslider.com -->
+    <script>
+ 
+    $(document).ready(function(){
+      $('.bxslider').bxSlider({
+        mode: 'fade',
+        auto: true,
+        pause:10000,
+        autoHover: false,
+        touchEnabled: true,
+        adaptiveHeight: false,
+        autoControls: false
+      });
+    });
+
+    $('[data-toggle="popover"]').popover({
+       'trigger': 'click',
+       'placement': 'top',
+       'animation' : 'true'
+    });
+
+    
+    $('body').on('click', function (e) {
+      $('[data-toggle="popover"]').each(function () {
+        //the 'is' for buttons that trigger popups
+        //the 'has' for icons within a button that triggers a popup
+        if (!$(this).is(e.target) && $(this).has(e.target).length === 0 && $('.popover').has(e.target).length === 0) {
+          $(this).popover('hide');
+        }
+      });
+    });
+    
+
+    </script>
+
+    <!-- Modals -->  <div id="project-modal" class="modal hide fade in" style="display: none;">
+    <div class="modal-header">
+      <a class="close" data-dismiss="modal">×</a>
+      <h4 class="dark-gray">Enter Your Project Details Below</h4>
+    </div>
+
+    <div>
+      <form class="project">
+        <div class="modal-body">
+          <div class="control-group">
+            <label class="control-label" for="email">Name</label>
+            <div class="controls">
+              <div class="input-prepend">
+                <span class="add-on form-icon"><i class="icon-user"></i></span>
+                <input id="name" name="name" placeholder="Your Name" style="width: 350px;" required="" type="text">
+              </div>
+            </div>
+
+            <label class="control-label" for="email">Email</label>
+            <div class="controls">
+              <div class="input-prepend">
+                <span class="add-on form-icon"><i class="icon-envelope"></i></span>
+                <input id="email" name="email" placeholder="your@email.com" style="width: 350px;" required="" x-autocompletetype="email" type="email">
+              </div>
+            </div>
+
+            <label class="control-label" for="email">Project Description</label>
+            <div class="controls">
+              <div class="input-prepend">
+                <span class="add-on form-icon"><i class="icon-cogs"></i></span>
+                <textarea id="description" name="description" type="text" placeholder="Your Project Description ..." style="width: 350px;" required=""></textarea>
+              </div>
+            </div>
+
+          </div>
+          <p>Your quote will arrive in 60 minutes, once we have the 
+requirements. Some more complex quotes may take longer. All quotes are 
+100% free of charge.</p>
+        </div>
+      </form>
+    </div>
+
+    <div class="modal-footer">
+      <button class="btn btn-success btn-large" id="submitproject"><strong>Submit Project</strong></button>
+      <a href="#" class="btn btn-large" data-dismiss="modal"><strong>Cancel</strong></a>
+    </div>
+  </div>
+  <div id="contact-modal" class="modal hide fade in" style="display: none;">
+    <div class="modal-header">
+      <a class="close" data-dismiss="modal">×</a>
+      <h4 class="dark-gray">Enter Your Request Below</h4>
+    </div>
+
+    <div>
+      <form class="contact">
+        <div class="modal-body">
+          <div class="control-group">
+            <label class="control-label" for="email">Name</label>
+            <div class="controls">
+              <div class="input-prepend">
+                <span class="add-on form-icon"><i class="icon-user"></i></span>
+                <input id="name" name="name" placeholder="Your Name" style="width: 350px;" required="" type="text">
+              </div>
+            </div>
+
+            <label class="control-label" for="email">Email</label>
+            <div class="controls">
+              <div class="input-prepend">
+                <span class="add-on form-icon"><i class="icon-envelope"></i></span>
+                <input id="email" name="email" placeholder="your@email.com" style="width: 350px;" required="" x-autocompletetype="email" type="email">
+              </div>
+            </div>
+
+            <label class="control-label" for="email">Your Request</label>
+            <div class="controls">
+              <div class="input-prepend">
+                <span class="add-on form-icon"><i class="icon-edit"></i></span>
+                <textarea id="description" name="description" type="text" placeholder="Your Request ..." style="width: 350px;" required=""></textarea>
+              </div>
+            </div>
+          </div>
+          <p>Please note that your request will be processed within the next 24 hours. We try to process all requests as soon as possible.</p>
+
+        </div>
+      </form>
+    </div>
+
+    <div class="modal-footer">
+      <button class="btn btn-success btn-large" id="submitcontact"><strong>Submit Request</strong></button>
+      <a href="#" class="btn btn-large" data-dismiss="modal"><strong>Cancel</strong></a>
+    </div>
+  </div>
+<div id="cfeedback-modal-success" class="modal fade" style="display:none" ;="">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <button type="button" class="close" data-dismiss="modal" aria-hidden="true">×</button>
+            <div class="modal-body">
+                Thank you for your submission. We will contact you soon.
+            </div>
+            <div class="modal-close">
+              <a href="#" class="btn btn-large" data-dismiss="modal"><strong>Close</strong></a>
+            </div>
+        </div>
+    </div> 
+</div>
+<div id="cfeedback-modal-fail" class="modal fade" style="display:none" ;="">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <button type="button" class="close" data-dismiss="modal" aria-hidden="true">×</button>
+            <div class="modal-body">
+                There was a problem with your submission.
+            </div>
+            <div class="modal-close">
+              <a href="#" class="btn btn-large" data-dismiss="modal"><strong>Close</strong></a>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+   
+
+
+</body></html>

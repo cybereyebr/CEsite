@@ -1,0 +1,85 @@
+/* ==========================================================================
+   Insert Your Custom Styles Below. All styles located in this file will
+   override existing main.css stylesheets.
+   ========================================================================== */ 
+
+.light-gray-bg{
+  background: #e4e9ea;
+}
+.blue-bg{
+  background: #38c8e0;
+}
+#services{
+  margin:0;
+}
+#services .service-info{
+  opacity: 0;
+  display: none;
+}
+.service-filter{
+  margin-bottom:20px;
+}
+.service-filter .btn{
+  margin:0 5px;
+}
+.service-filter .btn{
+  margin:5px;
+}
+.service-info{
+  margin-bottom: 30px;
+}
+.service-info .btn{
+  color:#fff;
+  text-shadow: none;
+  float:right;
+  padding: 9px 15px;
+}
+.service-info .icon{
+
+margin: 0px 0px 8px 257px;
+
+color: #fff;
+
+
+}
+/*.service-info .btn:hover{
+ color: #38c8e0;
+ background: #fff;
+
+
+}*/
+.service-info-top,
+.service-info-bottom{
+  padding:10px; 
+}
+.service-info-top{
+  -webkit-border-top-left-radius: 5px;
+  -moz-border-top-left-radius: 5px;
+  -ms-border-top-left-radius: 5px;
+  border-top-left-radius: 5px;  
+  -webkit-border-top-right-radius: 5px;
+  -moz-border-top-right-radius: 5px;
+  -ms-border-top-right-radius: 5px;
+  border-top-right-radius: 5px;  
+}
+.service-info-bottom{
+  height: 40px;
+  -webkit-border-bottom-left-radius: 5px;
+  -moz-border-top-bottom-radius: 5px;
+  -ms-border-top-bottom-radius: 5px;
+  border-bottom-left-radius: 5px;  
+  -webkit-border-bottom-right-radius: 5px;
+  -moz-border-bottom-right-radius: 5px;
+  -ms-border-bottom-right-radius: 5px;
+  border-bottom-right-radius: 5px;    
+}
+.service-info .price{
+  width: 80px;
+  font-size:30px;
+  padding:5px;
+
+}
+.service-info .price .currency{
+  
+  position:relative;
+}
